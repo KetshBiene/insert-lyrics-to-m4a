@@ -1,6 +1,7 @@
-# Описание
-Скрипт для вшивания текста в треки m4a (flac).
+# Description
+Script for inserting lyrics in m4a file as metadata
 
-## Начало работы
-Для работы в переменную path прописать абсолютный путь до директорию с треками (допустимо наличие подкаталогов, скрипт проходится рекурсивно)
-Для вшивания текста, нужно чтобы в той же директории, что и композиция, находился файл с текстом песни с таким же названием в форматах .lrc, .txt в кодировке UTF-8. После прохода и успешного вшивания скрипт удалит текстовые файлы 
+## Beginning
+Full variable path with your songs directory (allows nested directories)
+
+For work, you need to have the lrc/txt file with the exact name as the song. After success, the lyric file will be deleted.
